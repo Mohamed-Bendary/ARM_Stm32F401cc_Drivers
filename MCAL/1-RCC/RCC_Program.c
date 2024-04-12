@@ -2,7 +2,7 @@
  * RCC_Program.c
  *
  *  Created on: Nov 5, 2023
- *      Author: nours
+ *      Author: Bendary
  */
 
 #include <MCAL/RCC/RCC_Config.h>
