@@ -1,0 +1,5 @@
+../Src/GPIO_program.c:51:6:MGPIO_voidSetPinDirection	16	static
+../Src/GPIO_program.c:273:6:MGPIO_voidSetPinValue	16	static
+../Src/GPIO_program.c:325:6:MGPIO_voidSetPinValueATOMIC	16	static
+../Src/GPIO_program.c:376:4:MGPIO_u8GetPinValue	24	static
+../Src/GPIO_program.c:394:6:MGPIO_voidSetAF	16	static

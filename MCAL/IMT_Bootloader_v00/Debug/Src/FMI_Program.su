@@ -1,0 +1,2 @@
+../Src/FMI_Program.c:14:6:FMI_voidSectorErase	16	static
+../Src/FMI_Program.c:50:6:FMI_voidFlashWrite	32	static

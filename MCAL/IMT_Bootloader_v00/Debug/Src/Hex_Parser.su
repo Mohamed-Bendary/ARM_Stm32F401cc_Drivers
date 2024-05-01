@@ -1,0 +1,2 @@
+../Src/Hex_Parser.c:15:11:HexParser_u8Ascii2Num	24	static
+../Src/Hex_Parser.c:35:6:HexParser_vParseData	32	static

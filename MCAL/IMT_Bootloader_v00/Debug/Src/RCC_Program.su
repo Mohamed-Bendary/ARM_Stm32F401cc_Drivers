@@ -1,0 +1,5 @@
+../Src/RCC_Program.c:23:6:MRCC_voidInit	4	static
+../Src/RCC_Program.c:53:6:MRCC_voidEnablePerClk	16	static
+../Src/RCC_Program.c:98:6:MRCC_voidDisablePerClk	16	static
+../Src/RCC_Program.c:141:6:MRCC_voidEnableLOWPerClk	16	static
+../Src/RCC_Program.c:185:6:MRCC_voidDisableLOWPerClk	16	static

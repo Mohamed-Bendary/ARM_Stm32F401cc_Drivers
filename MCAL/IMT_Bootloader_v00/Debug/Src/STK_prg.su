@@ -1,0 +1,8 @@
+../Src/STK_prg.c:24:6:MSTK_vInit	4	static
+../Src/STK_prg.c:38:6:MSTK_vStopTimer	4	static
+../Src/STK_prg.c:45:6:MSTK_vSetBusyWait	16	static
+../Src/STK_prg.c:59:6:MSTK_vSetInterval_single	16	static
+../Src/STK_prg.c:72:6:MSTK_vSetInterval_periodic	16	static
+../Src/STK_prg.c:86:6:MSTK_u32GetElapsedTime	4	static
+../Src/STK_prg.c:91:6:MSTK_u32GetRemainingTime	4	static
+../Src/STK_prg.c:97:6:SysTick_Handler	8	static

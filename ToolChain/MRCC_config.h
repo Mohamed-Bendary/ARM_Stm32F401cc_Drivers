@@ -1,0 +1,64 @@
+/*
+ * MRCC_config.h
+ *
+ *  Created on: Sep 6, 2023
+ *      Author: Amr-a
+ */
+
+#ifndef MRCC_CONFIG_H_
+#define MRCC_CONFIG_H_
+/*
+ * There main clk sourses
+ * Options:-
+ * 1- HSI_CLK_SOURCE
+ * 2- HSE_CRYSTAL_CLK_SOURCE
+ * 3- HSE_USER_CLK_SOURCE
+ * 4- PLL_HSI_CLK_SOURCE
+ * 5- PLL_HSE_USER_CLK_SOURCE
+ * 6- PLL_HSE_CRYSTAL_CLK_SOURCE
+ * */
+
+#define RCC_SYSTEM_CLK_SOURCE			HSI_CLK_SOURCE
+
+/*
+ * CONFIGRATION Paramitras for pll
+ *
+ *	value mast be 2 4 6 8 */
+#define PLL_P_DIV_FACTOR				(2)
+/*	value mast be form 192 : 432 */
+#define PLL_N_MUL_FACTOR				(192)
+/*	value mast be from 2:63 */
+#define PLL_M_DIV_FACTOR				(2)
+
+/*
+ * AMBA Prescaler
+ * 1- AHB prescalre
+ * 		SYSTEM_CLOCK_NOT_DIVIDED
+ * 		SYSTEM_CLOCK_DIVIDED_BY_2
+ * 		SYSTEM_CLOCK_DIVIDED_BY_4
+ * 		SYSTEM_CLOCK_DIVIDED_BY_8
+ * 		SYSTEM_CLOCK_DIVIDED_BY_16
+ * 		SYSTEM_CLOCK_DIVIDED_BY_64
+ * 		SYSTEM_CLOCK_DIVIDED_BY_128
+ * 		SYSTEM_CLOCK_DIVIDED_BY_256
+ * 		SYSTEM_CLOCK_DIVIDED_BY_512
+ * */
+#define AHB_PRESCALER		SYSTEM_CLOCK_NOT_DIVIDED
+
+
+/* *
+ * 2- APB1 Prescaler
+ * 3- APB2 Prescaler
+ * 		AHB_CLOCK_NOT_DIVIDED
+ * 		AHB_CLOCK_DIVIDED_BY_2
+ * 		AHB_CLOCK_DIVIDED_BY_4
+ * 		AHB_CLOCK_DIVIDED_BY_8
+ * 		AHB_CLOCK_DIVIDED_BY_16
+ **/
+
+#define APB1_PRESCALER			AHB_CLOCK_DIVIDED_BY_2
+#define APB2_PRESCALER			AHB_CLOCK_DIVIDED_BY_2
+
+
+
+#endif /* MRCC_CONFIG_H_ */
